@@ -25,9 +25,15 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
+# Rails Locale
+# Versão do rails Rails 6.1.0
+gem 'rails-i18n', '~> 6.0.0' # For 6.0.0 or higher
+
 # Autenticação com Devise
 gem 'devise'
-
+# I18n
+gem 'devise-i18n'
+# Views
 gem 'devise-bootstrap-views', '~> 1.0'
 
 group :development, :test do
