@@ -15,7 +15,7 @@
       <li><%= link_to 'Services', services_path %></li>
       <% if user_signed_in? %>
         <li>
-          <a class="navbar-link navbar-link"<strong><%= current_user.email %></strong></a>
+          <a class="navbar-link navbar-link"<strong>| <%= current_user.email %> | </strong></a>
         </li>
         <li>
           <%= link_to 'Editar perfil', edit_user_registration_path, :class => 'navbar-link' %>
