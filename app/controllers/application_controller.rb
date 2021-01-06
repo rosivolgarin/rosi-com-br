@@ -1,11 +1,11 @@
 class ApplicationController < ActionController::Base
     #before_action :authenticate_user!
 
-    around_action :switch_locale
+    before_action :set_locale
 
-    def switch_locale(&action)
-    locale = params[:locale] || I18n.default_locale
-    I18n.with_locale(locale, &action)
+    private
+    def set_locale
+        session[:locale] = params[:locale] if params[:locale].present?
+        I18n.locale = session[:locale] || I18n.default_locale
     end
-
 end

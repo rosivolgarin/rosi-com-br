@@ -29,6 +29,9 @@ gem 'bootsnap', '>= 1.4.4', require: false
 # Versão do rails Rails 6.1.0
 gem 'rails-i18n', '~> 6.0.0' # For 6.0.0 or higher
 
+# Seleção de idomas por bandeira dos países
+gem 'flag-icons-rails'
+
 # Autenticação com Devise
 gem 'devise'
 # I18n
