@@ -85,4 +85,24 @@ pt:
       deliver_the_value_meaning: "Ouvindo nossos clientes, obtemos suas percepções sobre o que oferecemos."
       feedback_meaning: "Gostamos de dar e receber feedback. Não hesitamos em mudar com base no 
       que aprendemos."      
-
+    about:
+      21st-century_skills: "Habilidades do Século 21 e muito mais"
+      21st-century_skills_text: "Começamos cedo, mas nossos pensamentos estão à frente. Temos nos 
+      ajustado ao longo dos anos às necessidades dos mercados e dos negócios. Hoje em dia, nossa orientação 
+      diária é baseada, não apenas, mas também, em algumas habilidades do século 21, que se referem 
+      a um amplo conjunto de conhecimentos, habilidades, hábitos de trabalho e traços de caráter que 
+      são considerados - por educadores, empregadores e outros - criticamente importantes para o 
+      sucesso no mundo de hoje, como resolução de problemas, criatividade e colaboração."
+      problem_solving: "Resolução de Problemas"
+      problem_solving_meaning: "É um processo que envolve observação sistemática e pensamento crítico
+      para encontrar uma solução apropriada ou a forma de alcançar o objetivo desejado"
+      creativity: "Criatividade e Imaginação"
+      creativity_meaning: "É a capacidade de ver novas oportunidades, de produzir ideias 
+      originais, de se adaptar com flexibilidade a situações de mudança e de aplicar a imaginação 
+      para resolver problemas complexos"
+      innovation: "Inovação"
+      innovation_meaning: "Aplicamos nosso conhecimento para aprimorar as formas de pensar, 
+      aprender, trabalhar e viver no mundo moderno, seja para negócios ou para a vida cotidiana"
+      collaboration: "Colaboração"
+      collaboration_meaning: "Colaborar proveitosamente com os outros é uma meta diária da equipe"
+            
