@@ -5,7 +5,7 @@
   <div class="logo mr-auto">
     <!-- <h1 class="text-light"><a href="/">R|O|S|I</a></h1>-->
     <!-- Uncomment below if you prefer to use an image logo -->
-    <!---a href="#"><img src="staticos/assets/img/logo.png" alt="" class="img-fluid"></a-->
+    <a href="/"><img src="staticos/assets/img/logo.png" alt="" class="img-fluid"></a>
   </div>
 
   <nav class="nav-menu d-none d-lg-block">
@@ -31,6 +31,21 @@
           <%= link_to t('layouts.header.sign_in'), new_user_session_path, :class => 'navbar-link'  %>
         </li>
       <% end %>
+      <li class="social-links">
+        <a href="<%= request.path %>?locale=en">
+          <span class="flag-icon flag-icon-us"></span>
+        </a>
+      </li>
+      <li class="social-links">
+        <a href="<%= request.path %>?locale=pt-br">
+          <span class="flag-icon flag-icon-br"></span>
+        </a>
+      </li>
+      <li class="social-links">
+        <a href="<%= request.path %>?locale=pt">
+          <span class="flag-icon flag-icon-ao"></span>
+        </a>
+      </li>
     </ul>
   </nav><!-- .nav-menu -->
 
