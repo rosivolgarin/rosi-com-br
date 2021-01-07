@@ -30,4 +30,30 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  layouts:
+    index:
+      welcome_title: "Welcome to"
+      since: "Since 1997 we are helping small companies and startups to move forward along the Internet."
+      read_more: "Read More"
+      we_make: "We make things happen!"
+      place: "There is a place for you and your business here"
+      come_along: "Come along!"
+      how_can_we_help: "How can we help you today?"
+      previous: "Previous"
+      next: "Next"
+      we_created: "We've created"
+      dozens: "dozens"
+      solutions: "of solutions over about the years!"
+      perspective: "It’s great to give perspective and show opportunities in situations 
+      few people can. We have cool people working enthusiastically together to make new things. 
+      We do care about technology, but it´s not only about technology! It´s also about people 
+      and purpose."
+      lets_talk: "Let´s talk"
+    ourclients:
+      our: "Our"
+      clients: "Clients"
+      our_clients: "Usually, clients that have come chat us have already tried previous alternatives. 
+      For somehow they felt confident about the way we provide then confidence 
+      in terms of showing scenarios, facts, and possibilities."
+      great: "We feel great about helping such important clients on their journey to success!"
+      
