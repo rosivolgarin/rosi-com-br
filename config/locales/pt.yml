@@ -92,16 +92,19 @@ pt:
       business_support_services_meaning: "Suporte e aconselhamento para pequenas empresas e startups 
       no sentido de desenvolver e implementar suas ideais"
       digital_transformation_support: "Transformação Digital"
-      digital_transformation_support_meaning: "Suporte, aconselhamento e pesquisa"
+      digital_transformation_support_meaning: "Aconselhamento, pesquisa, implementação e suporte"
       web_development: "Desenvolvimento Web"
       web_development_meaning: "Todos os aspectos que envolvem o desenvolvimento de sistemas
-      web, incluindo infraestrutura, bankend and frontend"
+      web, incluindo infraestrutura, backend and frontend"
       full_management: "Processo de Gestão Completa"
-      full_management_meaning: "Processo de Gestão Completa"
+      full_management_meaning: "Gestão e acompanhamento das etapas necessárias para se cumprir
+      os objetivos estabelecidos"
       digital_marketing: "Marketing Digital"
-      digital_marketing_meaning: "Marketing Digital"
+      digital_marketing_meaning: "Usando a Internet, dispositivos móveis, mídias sociais,
+       mecanismos de pesquisa e outros canais para alcançar os consumidores"
       training: "Treinamento"
-      training_meaning: "Treinamento"
+      training_meaning: "Gostamos que nossos clientes tenham autonomia e se sintam confiantes. 
+      Treiná-los é parte imporante das nossas atividades"
     about:
       21st-century_skills: "Habilidades do Século 21 e muito mais"
       21st-century_skills_text: "Começamos cedo, mas nossos pensamentos estão à frente. Temos nos 
