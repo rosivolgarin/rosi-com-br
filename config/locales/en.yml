@@ -83,6 +83,23 @@ en:
       deliver_the_value_meaning: "Listening to our customers we get their perceptions about what we offer."
       feedback_meaning: "We do like to Give and Receive Feedback. We don´t hesitate to change based 
       on what we learn."
+    ourservices:
+      check_out_some: "Check out some of"
+      our_services: "Our Services" 
+      business_support_services: "Business Support Services"
+      business_support_services_meaning: "Support and advice for small businesses and startups in order 
+      to develop and implement their ideas"
+      digital_transformation_support: "Digital Transformation"
+      digital_transformation_support_meaning: "Support, advice and research"
+      web_development: "Web Development"
+      web_development_meaning: "All aspects involving web systems development
+      web, including infrastructure, bankend and frontend"
+      full_management: "Full Management Process"
+      full_management_meaning: "Full Management Process"
+      digital_marketing: "Digital Marketing"
+      digital_marketing_meaning: "Digital Marketing"
+      training: "Training"
+      training_meaning: "Training"
     about:
       21st-century_skills: "21st-century skills and more"
       21st-century_skills_text: "We have started early, but our thoughts are ahead. We have been adjusting 
