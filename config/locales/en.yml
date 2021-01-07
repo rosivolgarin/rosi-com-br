@@ -61,3 +61,25 @@ en:
       as they would a big customer. They deserve from our side the same handling, the same care, 
       and the same attention that we give to our customers do.  That´s for us a hugely 
       important relationship!"
+    header:
+      about: "About"
+      services: "Services"
+      edit_profile: "Edit Profile"
+      logout: "Logout"
+      sign_up: "Sign UP"
+      sign_in: "Sign IN"
+    services:
+      some: "Some"
+      features: "Features"
+      we_provice: "we do provide"
+      needs: "Think about your needs."
+      active_listening: "Active Listening"
+      active_listening_meaning: "Conscious effort to hear not only what the words are saying. 
+      Many times the needs are hidden exactly by the words are no longer said."
+      hands-on_experience: "Hands-on Experience"
+      hands-on_experience_meaning: "Our knowledge gets from doing the job rather than just reading 
+      about it or guessing."
+      deliver_the_value: "Deliver the value"
+      deliver_the_value_meaning: "Listening to our customers we get their perceptions about what we offer."
+      feedback_meaning: "We do like to Give and Receive Feedback. We don´t hesitate to change based 
+      on what we learn."

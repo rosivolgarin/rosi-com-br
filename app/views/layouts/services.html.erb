@@ -9,10 +9,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Services</h2>
+          <h2><%= t('layouts.header.services') %></h2></h2>
           <ol>
             <li><a href="/">Home</a></li>
-            <li>Services</li>
+            <li><%= t('layouts.header.services') %></li>
           </ol>
         </div>
 
@@ -28,8 +28,11 @@
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
-          <h2>Some <strong>Features</strong> we do provide</h2>
-          <p>Think about your needs.</p>
+          <h2>
+          <%= t('layouts.services.some') %>
+          <strong><%= t('layouts.services.features') %></strong> 
+          <%= t('layouts.services.we_provide') %></h2>
+          <p><%= t('layouts.services.needs') %></p>
         </div>
 
         <div class="row">
@@ -37,30 +40,26 @@
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
                 <a class="nav-link active show" data-toggle="tab" href="#tab-1">
-                  <h4>Active Listening</h4>
-                  <p>Conscious effort to hear not only what the words are saying. 
-                  Many times the needs are hidden exactly by the words are no longer said.
-                  </p>
+                  <h4><%= t('layouts.services.active_listening') %></h4>
+                  <p><%= t('layouts.services.active_listening_meaning') %></p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-toggle="tab" href="#tab-2">
-                  <h4>Hands-on Experience</h4>
-                  <p>Our knowledge gets from doing the job rather than just reading about it or guessing.</p>
+                  <h4><%= t('layouts.services.hands-on_experience') %></h4>
+                  <p><%= t('layouts.services.hands-on_experience_meaning') %></p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-toggle="tab" href="#tab-3">
-                  <h4>Deliver the value</h4>
-                  <p>Listening to our customers we get their perceptions about what we offer. 
-                  </p>
+                  <h4><%= t('layouts.services.deliver_the_value') %></h4>
+                  <p><%= t('layouts.services.deliver_the_value_meaning') %></p>
                 </a>
               </li>
               <li class="nav-item mt-2">
                 <a class="nav-link" data-toggle="tab" href="#tab-4">
                   <h4>Feedback</h4>
-                  <p>We do like to Give and Receive Feedback. We don´t hesitate to change based 
-                    on what we learn.</p>
+                  <p><%= t('layouts.services.feedback_meaning') %></p>
                 </a>
               </li>
             </ul>

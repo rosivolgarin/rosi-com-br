@@ -32,7 +32,7 @@
 pt:
   layouts:
     index:
-      welcome_title: "Bem-vindo à"
+      welcome_title: "Damos-lhes as boas vindas à"
       since: "Desde 1997 ajudamos pequenas empresas e startups a desenvolver e implementar suas ideais 
       e a se estabelecer na Internet."
       read_more: "Saiba Mais"
@@ -62,3 +62,27 @@ pt:
       parceiros como se fossem um grande cliente. Eles merecem da nossa parte o mesmo tratamento, 
       o mesmo cuidado e a mesma atenção que damos aos nossos clientes. Essa é uma relação extremamente 
       importante para nós!"
+    header:
+      about: "Sobre nós"
+      services: "Serviços"
+      edit_profile: "Editar Perfil"
+      logout: "Encerrar Sessão"
+      sign_up: "Registrar-se"
+      sign_in: "Aceder"
+    services:
+      some: "Alguns"
+      features: "Recursos"
+      we_provide: "que oferecemos"
+      needs: "Pense em suas necessidades."
+      active_listening: "Escuta Ativa"
+      active_listening_meaning: "Esforço consciente para ouvir não apenas o que as palavras dizem. 
+      Muitas vezes as necessidades são ocultadas exatamente pelas palavras que não 
+      são mais ditas."
+      hands-on_experience: "Experiência Efetiva"
+      hands-on_experience_meaning: "Nosso conhecimento vem de fazer o trabalho, em vez de apenas 
+      ler sobre ele ou adivinhar."
+      deliver_the_value: "Entregamos Valor"
+      deliver_the_value_meaning: "Ouvindo nossos clientes, obtemos suas percepções sobre o que oferecemos."
+      feedback_meaning: "Gostamos de dar e receber feedback. Não hesitamos em mudar com base no 
+      que aprendemos."      
+
