@@ -32,6 +32,7 @@
 pt:
   layouts:
     index:
+      since_title: "Desde"
       welcome_title: "Damos-lhes as boas vindas à"
       since: "Desde 1997 ajudamos pequenas empresas e startups a desenvolver e implementar suas ideais 
       e a se estabelecer na Internet."

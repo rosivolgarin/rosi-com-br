@@ -32,6 +32,7 @@
 en:
   layouts:
     index:
+      since_title: "Since"
       welcome_title: "Welcome to"
       since: "Since 1997 we are helping small companies and startups to move forward along the Internet."
       read_more: "Read More"
