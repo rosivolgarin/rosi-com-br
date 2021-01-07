@@ -19,36 +19,35 @@
       </div>
 
       <div class="col-lg-2 col-md-6 footer-links">
-        <h4>Useful Links</h4>
+        <h4><%= t('layouts.footer.useful_links') %></h4>
         <ul>
           <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
-          <li><i class="bx bx-chevron-right"></i> <%= link_to 'About', about_path %></li>
-          <li><i class="bx bx-chevron-right"></i> <%= link_to 'Services', services_path %></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+          <li><i class="bx bx-chevron-right"></i> <%= link_to t('layouts.footer.about'), about_path %></li>
+          <li><i class="bx bx-chevron-right"></i> <%= link_to t('layouts.footer.services'), services_path %></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#"><%= t('layouts.footer.terms_of_service') %></a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#"><%= t('layouts.footer.privacy_policy') %></a></li>
         </ul>
       </div>
 
       <div class="col-lg-3 col-md-6 footer-links">
-        <h4>Our Services</h4>
+        <h4><%= t('layouts.ourservices.our_services') %></h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Backend Development</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Project Management</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Digital Marketing</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#"><%= t('layouts.ourservices.business_support_services') %></a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#"><%= t('layouts.ourservices.digital_transformation_support') %></a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#"><%= t('layouts.ourservices.web_development') %></a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#"><%= t('layouts.ourservices.full_management') %></a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#"><%= t('layouts.ourservices.digital_marketing') %></a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="#"><%= t('layouts.ourservices.training') %></a></li>
         </ul>
       </div>
 
       <div class="col-lg-4 col-md-6 footer-newsletter">
-        <h4>Join Our Newsletter</h4>
-        <p>Want to know more about us or need some inspiration to power up your business?</p>
-        <form action="" method="post">
-          <input type="email" name="email"><input type="submit" value="Subscribe">
-        </form>
-      </div>
-
-    </div>
+      <h4><%= t('layouts.footer.join') %></h4>
+      <p><%= t('layouts.footer.join_text') %></p>
+      <form action="" method="post">
+        <input type="email" name="email"><input type="submit" value="<%= t('layouts.footer.subscribe') %>">
+      </form>
+    </div
   </div>
 </div>
 
