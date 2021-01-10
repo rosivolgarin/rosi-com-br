@@ -1,6 +1,10 @@
+<main id="main">  
+
+<!-- ======= Breadcrumbs ======= -->
+<%= render 'layouts/topbar' %>
+<!-- End Breadcrumbs -->
 
 <div class="container">
-
   <h1><%= t('.change_your_password') %></h1>
 
   <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :put }) do |f| %>
@@ -28,6 +32,4 @@
 
   <%= render 'devise/shared/links' %>
 <div>
-<!-- ======= Footer ======= -->
-<%= render 'layouts/footer' %>
-<!-- End Footer -->
+</main>
