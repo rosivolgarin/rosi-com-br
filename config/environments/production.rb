@@ -75,6 +75,8 @@ Rails.application.configure do
   # i18n parameters
   config.i18n.available_locales = [:en, 'pt-br', :pt]
 
+  config.i18n.default_locale = 'pt-br'
+
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify
 

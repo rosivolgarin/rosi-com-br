@@ -70,6 +70,8 @@ Rails.application.configure do
   # i18n parameters
   config.i18n.available_locales = [:en, 'pt-br', :pt]
 
+  config.i18n.default_locale = 'pt-br'
+
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true
 
