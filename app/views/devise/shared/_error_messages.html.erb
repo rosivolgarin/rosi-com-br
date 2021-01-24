@@ -7,7 +7,22 @@
 <%= render 'layouts/header' %>
 <!-- End Header -->
 
-<div class="container">
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+  <div class="container">
+
+    <div class="d-flex justify-content-between align-items-center">
+    <h2><i class="icofont-exclamation-circle"></i><%= t('layouts.header.help') %></h2>
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><%= t('layouts.header.about') %></li>
+      </ol>
+    </div>
+
+  </div>
+</section><!-- End Breadcrumbs -->
+
+<div class="col-md-6 offset-md-3">
   <% if resource.errors.any? %>
     <div id="error_explanation">
       <h2>

@@ -70,6 +70,7 @@ en:
       logout: "Logout"
       sign_up: "Sign UP"
       sign_in: "Sign IN"
+      help: "Help"
     services:
       some: "Some"
       features: "Features"

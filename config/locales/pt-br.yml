@@ -45,7 +45,7 @@ pt-br:
       next: "Próximo"
       we_created: "Nós desenvolvemos e apoiamos"
       dozens: "muitas"
-      solutions: "soluções durante esses anos!"
+      solutions: "soluções ao longo desses anos!"
       perspective: "É muito bom conseguir dar perspectivas e identificar oportunidades em situações em que
       poucas pessoas conseguem. Trabalhamos com entusiamo para fazer coisas novas e para pensar 
       diferente. Tecnologia é muito importante pra nós! Mas, tudo não se
@@ -70,6 +70,7 @@ pt-br:
       logout: "Encerrar Sessão"
       sign_up: "Registrar-se"
       sign_in: "Entrar"
+      help: "Ajuda"
     services:
       some: "Algumas"
       features: "Práticas"
@@ -136,8 +137,6 @@ pt-br:
       privacy_policy: "Privacidade"
       subscribe: "Assine"
 
-# Devise I18n config locales 
-
   activerecord:
     attributes:
       user:
@@ -164,8 +163,6 @@ pt-br:
         unconfirmed_email: E-mail não confirmado
         unlock_token: Token de desbloqueio
         updated_at: Atualizado em
-    models:
-      user: Usuário
   devise:
     confirmations:
       confirmed: A sua conta foi confirmada com sucesso.
@@ -282,4 +279,3 @@ pt-br:
       not_saved:
         one: 'Não foi possível salvar %{resource}: 1 erro'
         other: 'Não foi possível salvar %{resource}: %{count} erros.'
-

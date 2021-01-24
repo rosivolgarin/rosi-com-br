@@ -7,10 +7,23 @@
 <%= render 'layouts/header' %>
 <!-- End Header -->
 
-<div class="container">
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+  <div class="container">
 
-  <h1><%= t('.sign_up') %></h1>
+    <div class="d-flex justify-content-between align-items-center">
+    <h2><i class="icofont-exclamation-circle"></i><%= t('layouts.header.help') %></h2>
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><%= t('.sign_up') %></li>
+      </ol>
+    </div>
 
+  </div>
+</section><!-- End Breadcrumbs -->
+
+<div class="col-md-6 offset-md-3">
+  <br><br>
   <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
     <%= bootstrap_devise_error_messages! %>
 
@@ -40,6 +53,3 @@
 
   <%= render 'devise/shared/links' %>
 </div>
-<!-- ======= Footer ======= -->
-<%= render 'layouts/footer' %>
-<!-- End Footer -->

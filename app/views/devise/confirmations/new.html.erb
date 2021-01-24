@@ -1,16 +1,28 @@
-<main id="main">  
-  
-  <!-- ======= Breadcrumbs ======= -->
-  <%= render 'layouts/topbar' %>
-  <!-- End Breadcrumbs -->
+<!-- ======= Breadcrumbs ======= -->
+<%= render 'layouts/topbar' %>
+<!-- End Breadcrumbs -->
 
-  <!-- ======= Header ======= -->
-  <%= render 'layouts/header' %>
-  <!-- End Header -->
+<!-- ======= Header ======= -->
+<%= render 'layouts/header' %>
+<!-- End Header -->
 
-<div class="container">
-  <h1><%= t('.resend_confirmation_instructions') %></h1>
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+  <div class="container">
 
+    <div class="d-flex justify-content-between align-items-center">
+    <h2><i class="icofont-exclamation-circle"></i><%= t('layouts.header.help') %></h2>
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li><%= t('.resend_confirmation_instructions') %></li>
+      </ol>
+    </div>
+
+  </div>
+</section><!-- End Breadcrumbs -->
+
+<div class="col-md-6 offset-md-3">
+  <br><br>
   <%= form_for(resource, as: resource_name, url: confirmation_path(resource_name), html: { method: :post }) do |f| %>
     <%= bootstrap_devise_error_messages! %>
 
@@ -26,7 +38,3 @@
 
   <%= render 'devise/shared/links' %>
 <div>
-<!-- ======= Footer ======= -->
-<%= render 'layouts/footer' %>
-<!-- End Footer -->
-</main>
