@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   
   get "/about", to: "layouts#about"
   get "/services", to: "layouts#services"
+  get "/tutorials", to: "layouts#tutorials"
 
   scope "(:locale)", :locale => /en|pt-br|pt/ do
     root "layouts#index" 

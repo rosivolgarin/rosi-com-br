@@ -66,6 +66,7 @@ en:
     header:
       about: "About"
       services: "Services"
+      tutorials: "Tutorials"
       edit_profile: "Edit Profile"
       logout: "Logout"
       sign_up: "Sign UP"
