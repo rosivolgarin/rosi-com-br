@@ -9,4 +9,9 @@ class LayoutsController < ApplicationController
   def services
     render "services"
   end
+
+  def services
+    render "tutorials"
+  end
+
 end
