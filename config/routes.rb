@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get "/services", to: "layouts#services"
   get "/tutorials", to: "layouts#tutorials"
   get "/tutorials/download_pdf"
+  get "/agenda", to: "layouts#agenda"
 
   scope "(:locale)", :locale => /en|pt-br|pt/ do
     root "layouts#index" 
